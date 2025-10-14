@@ -1,0 +1,1 @@
+execute unless entity @a[tag=pre_peste] run tag @s add pre_peste

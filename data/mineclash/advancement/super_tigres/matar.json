@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "matar": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player":{
+            
+        },
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "killing_blow": {
+            "source_entity": {"equipment": {"mainhand": {"components": {"custom_data": {"guerra":true}}}}}
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["matar"]
+],
+"rewards": {"function": "mineclash:guerra/conquistas"}
+}

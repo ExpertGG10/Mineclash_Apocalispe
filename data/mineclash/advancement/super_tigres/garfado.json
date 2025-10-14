@@ -1,0 +1,24 @@
+{
+  "rewards": {
+    "function": "mineclash:fome/habilidade"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:trident",
+              "components": {
+                "minecraft:custom_data": {
+                  "fome": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

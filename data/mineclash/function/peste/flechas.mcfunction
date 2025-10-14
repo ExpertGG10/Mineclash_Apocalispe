@@ -1,0 +1,1 @@
+$give @p[tag=a_peste] minecraft:tipped_arrow[potion_contents={custom_color:6192150, custom_effects:$(efeitos)},custom_name=[{"text":"Coronavirus","italic":false,"color":"dark_green"}],tooltip_display={hidden_components:[potion_contents]}]

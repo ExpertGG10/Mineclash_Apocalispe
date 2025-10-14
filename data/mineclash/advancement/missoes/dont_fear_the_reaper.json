@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "alguma1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {"type": "player"}
+      }
+    }
+  },
+  "display": {
+    "description": "elimine um jogador",
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_hoe"
+    },
+    "title": "MORTE"
+  },
+  "parent": "mineclash:missoes/missoes",
+  "requirements": [
+    ["alguma1"]
+  ],
+  "rewards": {"function": "mineclash:morte/pre_morte"}
+}

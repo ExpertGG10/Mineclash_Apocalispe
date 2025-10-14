@@ -1,0 +1,1 @@
+$execute as stargzrr run fill 32 $(y) 32 -32 $(y) -32 minecraft:lava

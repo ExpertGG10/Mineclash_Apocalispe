@@ -1,0 +1,1 @@
+worldborder set 2464 600

@@ -1,0 +1,5 @@
+execute if entity @a[tag=!a_peste] run give @s crossbow[custom_name=[{"text":"A Pestificadora","italic":false,"color":"dark_green"}],lore=[[{"text":" - Gambiling -","italic":false}],[{"text":"Cada flecha ativa um efeito","italic":false,"color":"gray"}],[{"text":"negativo em área aleatório.","italic":false,"color":"gray"}],[{"text":"Ao atirar receba uma flecha","italic":false,"color":"gray"}],[{"text":"especial com efeitos aleatórios","italic":false,"color":"gray"}]],enchantments={multishot:1}, custom_data={peste:true}]
+execute if entity @a[tag=!a_peste] run give @s goat_horn[custom_data={peste:true}, custom_name={text:"Trombeta da Peste"}]
+execute if entity @a[tag=!a_peste] run summon zombie_horse ~ ~ ~ {Tags:["cavalo_da_peste"],Tame:true,equipment:{saddle:{id:saddle,count:1}},attributes:[{id:max_health,base:40f},{id:safe_fall_distance,base:100f}]}
+execute if entity @a[tag=!a_peste] run give @p[tag=a_peste] minecraft:tipped_arrow[potion_contents={custom_color:6192150, custom_effects:[{id:"nausea"}]},custom_name=[{"text":"Coronavirus","italic":false,"color":"dark_green"}]]
+execute if entity @a[tag=!a_peste] run tag @s add a_peste

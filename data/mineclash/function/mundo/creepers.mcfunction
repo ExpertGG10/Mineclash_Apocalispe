@@ -1,0 +1,1 @@
+execute at @r run summon minecraft:creeper ~ ~100 ~ {ignited:true,Fuse:65, Invulnerable:true}

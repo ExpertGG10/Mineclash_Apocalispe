@@ -1,0 +1,47 @@
+{
+  "parent": "mineclash:missoes/missoes",
+  "criteria": {
+    "pra_cima": {
+      "conditions": {
+        "player": {"location": {"position": {"x":10000}}}
+      },
+      "trigger": "minecraft:location"
+    },
+    "pra_baixo": {
+      "conditions": {
+        "player": {"location": {"position": {"x":-10000}}}
+      },
+      "trigger": "minecraft:location"
+    },
+    "pra_esquerda": {
+      "conditions": {
+        "player": {"location": {"position": {"z":10000}}}
+      },
+      "trigger": "minecraft:location"
+    },
+    "pra_direita": {
+      "conditions": {
+        "player": {"location": {"position": {"z":-10000}}}
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": "Chegue a borda da quatentena",
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bow"
+    },
+    "title": "PESTE"
+  },
+  "requirements": [
+    [
+      "pra_baixo", "pra_cima","pra_direita","pra_esquerda"
+    ]
+  ],
+  "rewards": {
+    "function": "mineclash:peste/pre_peste"
+  },
+  "sends_telemetry_event": true
+}

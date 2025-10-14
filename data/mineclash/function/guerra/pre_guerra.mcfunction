@@ -1,0 +1,1 @@
+execute unless entity @a[tag=pre_guerra] run tag @s add pre_guerra

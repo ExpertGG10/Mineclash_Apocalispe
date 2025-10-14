@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "tocar": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+            "predicates": {
+              "minecraft:custom_data": "{guerra:true}"
+            },
+          "items": "minecraft:goat_horn"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tocar"
+    ]
+  ],
+  "rewards": {"function": "mineclash:guerra/tp_cavalo"}
+}

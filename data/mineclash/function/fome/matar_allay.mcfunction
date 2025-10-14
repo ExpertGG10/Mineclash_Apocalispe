@@ -1,0 +1,1 @@
+kill @e[type=allay,tag=puxavel]
