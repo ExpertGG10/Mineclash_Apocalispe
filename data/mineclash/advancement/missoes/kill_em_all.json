@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "alguma1": {
+    "guerra": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [{"items": ["shield"],"components": {"custom_data": {"guerra":true}}}]
@@ -12,13 +12,13 @@
     "frame": "challenge",
     "icon": {
       "count": 1,
-      "id": "minecraft:saddle"
+      "id": "minecraft:diamond_sword"
     },
     "title": "GUERRA"
   },
   "parent": "mineclash:missoes/missoes",
   "requirements": [
-    ["alguma1"]
+    ["guerra"]
   ],
-  "rewards": {"function": "mineclash:guerra/pre_guerra"}
+  "rewards": {"function": "mineclash:cavaleiros/guerra/a_guerra"}
 }

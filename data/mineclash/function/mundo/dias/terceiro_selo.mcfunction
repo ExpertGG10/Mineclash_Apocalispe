@@ -5,4 +5,3 @@ title @a subtitle {"text":'"A escassez se espalhará pelos campos"',"color":"dar
 
 # Linha no chat (com barra e hover)
 tellraw @a [{"text":"\n"},{"text":"========== ","color":"dark_gray","strikethrough":true},{"text":"[","color":"dark_gray"},{"text":"SELO: FOME","color":"#bd8a2d","bold":true},{"text":"] ","color":"dark_gray"},{"text":"A MAÇÃ DO EDEN não se regenerará novamente","color":"dark_blue","bold":true},{"text":" ==========","color":"dark_gray","strikethrough":true},{"text":"\n"}]
-execute as @a[tag=pre_peste] run function mineclash:peste/a_peste

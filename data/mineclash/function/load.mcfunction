@@ -1,6 +1,5 @@
-schedule clear mineclash:repetidores/scheduler
-schedule clear mineclash:repetidores/scheduler2
-schedule clear mineclash:peste/wait_arrow
+schedule clear mineclash:repetidores/scheduler_1
+schedule clear mineclash:repetidores/scheduler_2
 scoreboard objectives add vida dummy
 scoreboard objectives add roleta dummy
 scoreboard players set stargzrr nivel -64

@@ -17,5 +17,5 @@
       "tocar"
     ]
   ],
-  "rewards": {"function": "mineclash:morte/tp_cavalo"}
+  "rewards": {"function": "mineclash:cavaleiros/morte/tp_cavalo"}
 }

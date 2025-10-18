@@ -1,1 +1,0 @@
-execute unless entity @a[tag=pre_morte] run tag @s add pre_morte

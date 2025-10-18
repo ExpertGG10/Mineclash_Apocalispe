@@ -41,7 +41,7 @@
     ]
   ],
   "rewards": {
-    "function": "mineclash:peste/pre_peste"
+    "function": "mineclash:cavaleiros/peste/pre_peste"
   },
   "sends_telemetry_event": true
 }

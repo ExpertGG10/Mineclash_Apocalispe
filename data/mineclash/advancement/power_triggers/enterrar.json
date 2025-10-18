@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "mineclash:morte/enterrar"
+        "function": "mineclash:cavaleiros/morte/habilidade"
     }
 }

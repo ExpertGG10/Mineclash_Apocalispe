@@ -7,5 +7,5 @@ execute if score @s roleta matches 81..90 run data modify storage mineclash:efei
 execute if score @s roleta matches 90..94 run data modify storage mineclash:efeito1 efeitos set value "[{id:poison, duration:200}, {id:wither, duration:200}]"
 execute if score @s roleta matches 95..97 run data modify storage mineclash:efeito1 efeitos set value "[{id:nausea, duration:300}, {id:levitation, duration:100}, {id:night_vision, duration:100}, {id:darkness, duration:200}]"
 execute if score @s roleta matches 98..100 run data modify storage mineclash:efeito1 efeitos set value "[{id:slowness, duration:600}, {id:weakness, duration:600}, {id:mining_fatigue, duration:600}]"
-function mineclash:peste/potion with storage mineclash:efeito1
+function mineclash:cavaleiros/peste/potion with storage mineclash:efeito1
 

@@ -17,5 +17,5 @@
       "tocar"
     ]
   ],
-  "rewards": {"function": "mineclash:fome/tp_cavalo"}
+  "rewards": {"function": "mineclash:cavaleiros/fome/tp_cavalo"}
 }

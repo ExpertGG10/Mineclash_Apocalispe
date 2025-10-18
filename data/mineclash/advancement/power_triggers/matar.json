@@ -18,5 +18,5 @@
   "requirements": [
     ["matar"]
 ],
-"rewards": {"function": "mineclash:guerra/conquistas"}
+"rewards": {"function": "mineclash:cavaleiros/guerra/conquistas"}
 }

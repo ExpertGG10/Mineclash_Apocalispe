@@ -10,6 +10,7 @@ execute if items entity @s hotbar.7 #foods run scoreboard players set @s slot 7
 execute if items entity @s hotbar.8 #foods run scoreboard players set @s slot 8
 execute if items entity @s weapon.offhand #foods run scoreboard players set @s slot 9
 execute if items entity @s weapon.mainhand #foods run scoreboard players set @s slot 10
+data modify storage mineclash:data comida set value {}
 execute if items entity @s hotbar.0 #foods run data modify storage mineclash:data comida set from entity @s Inventory[{Slot:0b}]
 execute if items entity @s hotbar.1 #foods run data modify storage mineclash:data comida set from entity @s Inventory[{Slot:1b}]
 execute if items entity @s hotbar.2 #foods run data modify storage mineclash:data comida set from entity @s Inventory[{Slot:2b}]
@@ -32,6 +33,6 @@ execute if score @s slot matches 7 run item replace entity @s hotbar.7 with air
 execute if score @s slot matches 8 run item replace entity @s hotbar.8 with air
 execute if score @s slot matches 9 run item replace entity @s weapon.offhand with air
 execute if score @s slot matches 10 run item replace entity @s weapon.mainhand with air
-summon allay ~ ~ ~ {active_effects:[{id:invisibility,duration:99999}],equipment:{mainhand:{id:gold_block,count:16}},Silent:true,Tags:["puxavel"]}
+summon allay ~ ~ ~ {active_effects:[{id:invisibility,duration:99999}],equipment:{mainhand:{id:rotten_flesh,count:1}},Silent:true,Tags:["puxavel"]}
 data modify entity @e[type=allay,limit=1,sort=nearest] equipment.mainhand set from storage mineclash:data comida
-schedule function mineclash:fome/matar_allay 20
+schedule function mineclash:cavaleiros/fome/matar_allay 20
